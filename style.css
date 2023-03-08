@@ -7,34 +7,38 @@ body {
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   background-color: hsl(212, 45%, 89%);
-  margin: 0;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 325px;
+  width: 320px;
   border-radius: 5%;
-  margin: 10%;
+  box-shadow: 0 3px 30px 10px hsla(0, 0%, 0%, 0.05);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 18px;
+  padding: 16px;
 }
 
 .text {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
 p:first-of-type {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
+  margin-top: 10px;
 }
 
 p:last-of-type {
@@ -43,14 +47,4 @@ p:last-of-type {
 
 img {
   border-radius: 5%;
-}
-
-.footer {
-  font-size: 11px;
-  text-align: center;
-  margin: 5px;
-}
-
-.footer a {
-  color: hsl(228, 45%, 44%);
 }
