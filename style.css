@@ -10,14 +10,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 320px;
+  max-width: 320px;
   border-radius: 5%;
   box-shadow: 0 3px 30px 10px hsla(0, 0%, 0%, 0.05);
 }
@@ -34,17 +33,18 @@ body {
   text-align: center;
 }
 
-p:first-of-type {
-  font-size: 20px;
+h1 {
+  font-size: 21px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   margin-top: 10px;
 }
 
-p:last-of-type {
+p {
   color: hsl(220, 15%, 55%);
 }
 
 img {
   border-radius: 5%;
+  max-width: 100%;
 }
